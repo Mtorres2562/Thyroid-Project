@@ -77,8 +77,6 @@ This dataset required no cleaning aside from converting categorical variables to
 
 ### Model Selection
 The K-Nearest Neighbors (KNN) model was used in this project to predict a patient's risk of thyroid cancer. This analysis aims to raise awareness, helping patients take better care of themselves and proactively manage potential thyroid cancer concerns.
-### Evaluation Metrics
-Model 5 was the most sucesses out of the models giving a R2 score of 29070.03 beating the baseline by 52,318
 
 | N_Neighbors       | Train score     | Test Score       |
 |-------------------|----------|----------|
