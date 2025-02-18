@@ -1,8 +1,8 @@
 ## Thyroid Cancer Predictions
 
 ## Problem Statement
-- This analysis simulates real-world thyroid cancer risk factors using a dataset from [Kaggle](https://www.kaggle.com/datasets/ankushpanday1/thyroid-cancer-risk-prediction-dataset/data), providing insights into key contributors to the disease and identifying regions where thyroid cancer is most prevalent.
-- The goal is to determine what makes a patient high-risk and which personal health factors they should monitor to stay proactive about potential thyroid cancer concerns.
+This analysis simulates real-world thyroid cancer risk factors using a dataset from [Kaggle](https://www.kaggle.com/datasets/ankushpanday1/thyroid-cancer-risk-prediction-dataset/data), providing insights into key contributors to the disease and identifying regions where thyroid cancer is most prevalent.
+The goal is to determine what makes a patient high-risk and which personal health factors they should monitor to stay proactive about potential thyroid cancer concerns.
 
 ## Data Dictionary
 
