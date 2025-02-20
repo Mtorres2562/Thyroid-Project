@@ -33,25 +33,39 @@ This dataset required no significant cleaning aside from converting categorical 
 ### Key Visualizations  
 
 #### Visualization 1: Country vs. Diagnosis Comparison  
-This shows that India has a 12% higher rate of thyroid cancer compared to other countries.  
+This shows that India has a 12% higher rate of thyroid cancer compared to other countries. 
+
+![Visualization 1]('data_images/visualization_1.PNG')
 
 #### Visualization 2: Ethnicity vs. Diagnosis Comparison  
-This shows that Asians have a higher percentage of thyroid cancer cases—about 8% more than the next highest ethnicity, Africans, who have a rate of 25%.  
+This shows that Asians have a higher percentage of thyroid cancer cases—about 8% more than the next highest ethnicity, Africans, who have a rate of 25%. 
+
+![Visualization 2]('data_images/visualization_2.PNG')
 
 #### Visualization 3: Family History vs. Diagnosis Comparison  
-Having a family history of thyroid cancer increases the risk by 13%, compared to 19% for those with no family history.  
+Having a family history of thyroid cancer increases the risk by 13%, compared to 19% for those with no family history. 
+
+![Visualization 3]('data_images/visualization_3.PNG')
 
 #### Visualization 4: Radiation Exposure vs. Diagnosis Comparison  
-The data shows that exposure to radiation increases the risk of thyroid cancer by 11% compared to those with no exposure.  
+The data shows that exposure to radiation increases the risk of thyroid cancer by 11% compared to those with no exposure. 
+
+![Visualization 4]('data_images/visualization_4.PNG')
 
 #### Visualization 5: Iodine Deficiency vs. Diagnosis Comparison  
-Having low iodine levels increases the risk of thyroid cancer by 10%, compared to an efficiency level of 21% in individuals with sufficient iodine.  
+Having low iodine levels increases the risk of thyroid cancer by 10%, compared to an efficiency level of 21% in individuals with sufficient iodine.
+
+![Visualization 5]('data_images/visualization_5.PNG')
 
 #### Visualization 6: Correlations with Diagnosis  
-We can now observe both positive and negative correlations. Thyroid cancer risk has the highest positive correlation at 0.37, followed by family history (0.14), Asian ethnicity (0.14), and Indian origin (0.11).  
+We can now observe both positive and negative correlations. Thyroid cancer risk has the highest positive correlation at 0.37, followed by family history (0.14), Asian ethnicity (0.14), and Indian origin (0.11).
+
+![Visualization 6]('data_images/visualization_6.PNG')
 
 #### Visualization 7: K-Neighbors Classifier Confusion Matrix  
-With `n_neighbors` set to 51, the model's performance improved, increasing True Negative predictions by 719 and True Positive predictions by 610.  
+With `n_neighbors` set to 51, the model's performance improved, increasing True Negative predictions by 719 and True Positive predictions by 610.
+
+![Visualization 7]('data_images/visualization_7.PNG')
 
 ## Model Performance  
 
