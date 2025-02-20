@@ -18,7 +18,7 @@ thyroid = thyroid.drop(columns= 'Patient_ID')
 # Page Title and Icon
 st.set_page_config(page_title= "Thyroid Cancer Predictions", page_icon= "🦠")
 
-# Sidebare Navigation
+# Sidebar Navigation
 page = st.sidebar.selectbox("Select a Page",["Home", "Data Overview", "Exploratory Data Analysis", "Model Training and Evaluation", "Make Predictions"])
 
 # Home page
@@ -37,7 +37,7 @@ if page == "Home":
     st.divider()
 
     st.image('https://www.ent-newyork.com/images/anaplastic-thyroid-lymphoma-img1.jpg')
-    st.markdown("Image usded from [ent-newyork.com](https://www.ent-newyork.com/thyroid-lymphoma-nyc.htm)")
+    st.markdown("Image used from [ent-newyork.com](https://www.ent-newyork.com/thyroid-lymphoma-nyc.htm)")
 
 
 # Data Overview
@@ -74,21 +74,21 @@ elif page == "Data Overview":
         |-------------|-------------|
         | Patient_ID     | Observation number |
         | Age     | Age of patient |
-        | Gender     | Gender of patient from Female and Male |
-        | Country     |  Identifies the country of origin of patient |
-        | Ethnicity     | Identifies ethnic background |
-        | Family History    | Identifies Yes or No of Families history of thyroid cancer |
-        | Radiation Exposure     | Identifies Yes or No if have been exposed to Radiation |
-        | Iodine Deficiency    | Identifies Yes or No if Deficient in Iodine levels |
-        | Smoking    | Identifies Yes or No if patient smokes |
-        | Obesity    | Identifies Yes or No if patient is obese|
-        | Diabetes     | Identifies Yes or No if patient is diabetic |
-        | TSH levels    | Gives value level of Thyroid-Stimulating Hormone |
-        | T3 Levels    | Gives value level of Triiodothyronine (T3) |
-        | T4 Levels     |  Gives value level of Thyroxine (T4) |
-        | Nodule Size     | Gives value of size of Nodule |
-        | Thyroid Cancer Risk     | Identifies patients risk of throid cancer from Low, Medium or High |
-        | Diagnosis     | Identifies patients of thyroid cancer or not as Malignant or Benign |
+        | Gender     | Gender of patient (Female or Male) |
+        | Country     |  Identifies the country of origin of the patient |
+        | Ethnicity     | Identifies the ethnic background |
+        | Family History    | Identifies Yes or No for a family history of thyroid cancer |
+        | Radiation Exposure     | Identifies Yes or No if the patient has been exposed to radiation |
+        | Iodine Deficiency    | Identifies Yes or No if the patient is deficient in iodine levels |
+        | Smoking    | Identifies Yes or No if the patient smokes |
+        | Obesity    | Identifies Yes or No if the patient is obesee|
+        | Diabetes     | Identifies Yes or No if the patient is diabetic |
+        | TSH levels    | Provides the value level of Thyroid-Stimulating Hormone (TSH) |
+        | T3 Levels    | Provides the value level of Triiodothyronine (T3) |
+        | T4 Levels     |  Provides the value level of Thyroxine (T4) |
+        | Nodule Size     | Provides the size of the nodule |
+        | Thyroid Cancer Risk     | Identifies the patient's risk of thyroid cancer as Low, Medium, or High |
+        | Diagnosis     | Identifies whether the patient has thyroid cancer (Malignant or Benign) |
         """,
         unsafe_allow_html=True)
 
@@ -96,43 +96,43 @@ elif page == "Data Overview":
 # Exploratory Data Analysis (EDA)
 elif page == "Exploratory Data Analysis":
     st.title("📊 Exploratory Data Analysis (EDA)")
-    st.subheader("Key visualtization to explore.")
+    st.subheader("Key visualization to explore.")
 
     st.divider()
 
     st.markdown("#### Visualization 1: Country Diagnosis Comparison")
-    st.markdown("[This shows that India has a 12% higher rate of thyroid cancer compared to other countries.]")
-    st.image("C:/Users/mtorr/Documents/Coding-Temple/9-Module/Project/M9-Project-/data_images/visualization_1.PNG", caption="Visualization 1")
+    st.markdown([This shows that India has a 12% higher rate of thyroid cancer compared to other countries.")
+    st.image("data_images/visualization_1.PNG", caption="Visualization 1")
 
     st.divider()
 
     st.markdown("#### Visualization 2: Ethnicity Diagnosis Comparisons")
-    st.markdown("This shows that Asians have a higher percentage of thyroid cancer cases, about 8% more than the next highest ethnicity, Africans, at 25%.")
-    st.image("C:/Users/mtorr/Documents/Coding-Temple/9-Module/Project/M9-Project-/data_images/visualization_2.PNG", caption="Visualization 2")
+    st.markdown("This shows that Asians have a higher percentage of thyroid cancer cases—about 8% more than the next highest ethnicity, Africans, who have a rate of 25%.")
+    st.image("data_images/visualization_2.PNG", caption="Visualization 2")
 
     st.divider()
 
     st.markdown("#### Visualization 3: Family History Diagnosis Comparison")
-    st.markdown("This shows that having a family history increases the risk of thyroid cancer by 13%, compared to 19% for those with no family history.")
-    st.image("C:/Users/mtorr/Documents/Coding-Temple/9-Module/Project/M9-Project-/data_images/visualization_3.PNG", caption="Visualization 3")
+    st.markdown("Having a family history of thyroid cancer increases the risk by 13%, compared to 19% for those with no family histor.")
+    st.image("data_images/visualization_3.PNG", caption="Visualization 3")
 
     st.divider()
 
     st.markdown("#### Visualization 4: Radiation Exposure Diagnosis Comparison")
-    st.markdown("The data shows that exposure increases the risk of thyroid cancer by 11% compared to those with no exposure.")
-    st.image("C:/Users/mtorr/Documents/Coding-Temple/9-Module/Project/M9-Project-/data_images/visualization_4.PNG", caption="Visualization 4")
+    st.markdown("The data shows that exposure to radiation increases the risk of thyroid cancer by 11% compared to those with no exposure.")
+    st.image("data_images/visualization_4.PNG", caption="Visualization 4")
 
     st.divider()
 
     st.markdown("#### Visualization 5: Iodine Deficiency Diagnosis Comparison")
     st.markdown("Having low iodine levels increases the risk of thyroid cancer by 10%, compared to an efficiency level of 21% in individuals with sufficient iodine.")
-    st.image("C:/Users/mtorr/Documents/Coding-Temple/9-Module/Project/M9-Project-/data_images/visualization_5.PNG", caption="Visualization 5")
+    st.image("data_images/visualization_5.PNG", caption="Visualization 5")
 
     st.divider()
 
     st.markdown("#### Visualization 6: Correlations with Diagnosis")
     st.markdown("We can now observe both positive and negative correlations. Thyroid cancer risk has the highest positive correlation at 0.37, followed by family history (0.14), Asian ethnicity (0.14), and Indian origin (0.11).")
-    st.image("C:/Users/mtorr/Documents/Coding-Temple/9-Module/Project/M9-Project-/data_images/visualization_6.PNG", caption="Visualization 6")
+    st.image("data_images/visualization_6.PNG", caption="Visualization 6")
 
     st.divider()
 
