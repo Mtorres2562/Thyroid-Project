@@ -101,7 +101,7 @@ elif page == "Exploratory Data Analysis":
     st.divider()
 
     st.markdown("#### Visualization 1: Country Diagnosis Comparison")
-    st.markdown([This shows that India has a 12% higher rate of thyroid cancer compared to other countries.")
+    st.markdown("This shows that India has a 12% higher rate of thyroid cancer compared to other countries.")
     st.image("data_images/visualization_1.PNG", caption="Visualization 1")
 
     st.divider()
