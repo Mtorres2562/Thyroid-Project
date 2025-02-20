@@ -35,7 +35,7 @@ This dataset required no significant cleaning aside from converting categorical 
 #### Visualization 1: Country vs. Diagnosis Comparison  
 This shows that India has a 12% higher rate of thyroid cancer compared to other countries. 
 
-![Visualization 1]('Thyroid-Project/data_images/visualization_1.PNG')
+![Visualization 1]('data_images/visualization_1.PNG')
 
 #### Visualization 2: Ethnicity vs. Diagnosis Comparison  
 This shows that Asians have a higher percentage of thyroid cancer cases—about 8% more than the next highest ethnicity, Africans, who have a rate of 25%. 
